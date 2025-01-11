@@ -1,4 +1,4 @@
-import 'package:dashboard_drug_scan/Views/Dashboard/admin_dashboard_screen.dart';
+import 'package:dashboard_drug_scan/Views/Splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Drug Scan Admin',
-      home: AdminDashboard(),
+      home: SplashScreen(),
     );
   }
 }
